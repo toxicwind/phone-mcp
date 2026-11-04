@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "generated": "2026-11-04T22:03Z",
+    "device": "Pixel 9 Pro XL (10.0.0.77, adb port rotates — pin ANDROID_SERIAL)",
+    "sources": ["aapt dump xmltree (declared activities)", "dumpsys package (intent-filter/resolver activities)"],
+    "note": "dumpsys only surfaces intent-filter activities; declared sets come from the APK manifests (aapt). fennec not installed on device."
+  },
+  "com.mobilerun.portal": {
+    "version": "0.7.25 (539)",
+    "launchable": ["com.mobilerun.portal/.ui.MainActivity"],
+    "declared": [
+      "com.mobilerun.portal.ui.MainActivity",
+      "com.mobilerun.portal.ui.ScreenCaptureActivity",
+      "com.mobilerun.portal.keepalive.KeepAliveRecoveryActivity",
+      "com.mobilerun.portal.ui.PermissionDialogActivity",
+      "com.mobilerun.portal.ui.settings.SettingsActivity",
+      "com.mobilerun.portal.ui.triggers.TriggerRulesActivity",
+      "com.mobilerun.portal.ui.triggers.TriggerRuleEditorActivity",
+      "com.mobilerun.portal.ui.taskprompt.TaskHistoryActivity",
+      "com.mobilerun.portal.ui.taskprompt.TaskDetailsActivity"
+    ]
+  },
+  "top.niunaijun.blackdexa64": {
+    "version": "3.2.0 (6)",
+    "launchable": ["top.niunaijun.blackdexa64/top.niunaijun.blackdex.view.base.WelcomeActivity"],
+    "declared": [
+      "top.niunaijun.blackdex.view.base.WelcomeActivity",
+      "top.niunaijun.blackdex.view.main.MainActivity",
+      "top.niunaijun.blackdex.view.setting.SettingActivity",
+      "top.niunaijun.blackbox.proxy.ProxyActivity$P0 … ProxyActivity$P24 (25 virtual-app proxy activities)"
+    ]
+  },
+  "moe.shizuku.privileged.api": {
+    "launchable": ["moe.shizuku.manager.MainActivity"],
+    "declared": [
+      "moe.shizuku.manager.MainActivity",
+      "moe.shizuku.manager.settings.SettingsActivity",
+      "moe.shizuku.manager.authorization.RequestPermissionActivity",
+      "moe.shizuku.manager.legacy.LegacyIsNotSupportedActivity",
+      "moe.shizuku.manager.legacy.ShellRequestHandlerActivity"
+    ]
+  },
+  "org.mozilla.fenix": {
+    "launchable": ["org.mozilla.fenix/.HomeActivity", "org.mozilla.fenix/.IntentReceiverActivity"],
+    "declared": [
+      "org.mozilla.fenix.HomeActivity",
+      "org.mozilla.fenix.IntentReceiverActivity",
+      "org.mozilla.gecko.LauncherActivity",
+      "mozilla.components.feature.pwa.WebAppLauncherActivity",
+      "androidx.media3.session.BluetoothValidationActivity"
+    ]
+  },
+  "org.mozilla.fennec": { "installed": false }
+}
